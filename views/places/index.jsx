@@ -17,7 +17,7 @@ function index (data) {
               {placesFormatted}
           </main>
       </Def>
-  )
+    )
   }
   
 
