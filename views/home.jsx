@@ -12,7 +12,6 @@ function home () {
                 <a href="/places">
                     <button className="btn btn-primary">Places Page</button>
                 </a>
-
             </main>
         </Def>
     )
