@@ -13,7 +13,6 @@ router.get('/', (req, res) => {
     })
 })
 
-
 router.post('/', (req, res) => {
   db.Place.create(req.body)
   .then(() => {
@@ -24,7 +23,6 @@ router.post('/', (req, res) => {
       res.render('error404')
   })
 })
-
 
 router.get('/new', (req, res) => {
   res.render('places/new')
@@ -40,7 +38,6 @@ router.get('/:id', (req, res) => {
       res.render('error404')
   })
 })
-
 
 router.put('/:id', (req, res) => {
   res.send('PUT /places/:id stub')
