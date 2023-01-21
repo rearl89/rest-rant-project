@@ -14,15 +14,19 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req, res) => {
+  if (req.body.pic === '') { req.body.pic = undefined }
+  if (req.body.city === '') { req.body.city = undefined }
+  if (req.body.state === '') { req.body.state = undefined }
   db.Place.create(req.body)
-  .then(() => {
-      res.redirect('/places')
-  })
-  .catch(err => {
-      console.log('err', err)
-      res.render('error404')
-  })
+      .then(() => {
+          res.redirect('/places')
+      })
+      .catch(err => {
+              console.log('err', err)
+              res.render('error404')
+      })
 })
+
 
 router.get('/new', (req, res) => {
   res.render('places/new')

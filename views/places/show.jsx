@@ -1,7 +1,7 @@
 const React = require('react')
 const Def = require('../default')
 
-function show (data) {
+function show () {
     return (
         <Def>
           <main>
@@ -23,8 +23,6 @@ function show (data) {
                     Delete
                 </button>
             </form> 
-
-
           </main>
         </Def>
     )
