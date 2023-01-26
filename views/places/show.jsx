@@ -103,7 +103,7 @@ function show (data) {
                   <br />
                   <input type="range" step="0.5" min="1" max="5" id="stars" name="stars" />
                   <br />
-                  <h6>1&nbsp;&nbsp;&nbsp;1.5&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;2.5&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;3.5&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;4.5&nbsp;&nbsp;5</h6>
+                  <h6>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5</h6>
                 </div>
                 <div className="form-group col-sm-2">
                   <label htmlFor="rant">Rant?</label>
